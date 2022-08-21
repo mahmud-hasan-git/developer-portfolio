@@ -5,22 +5,28 @@ body{
 h1{
     font-size: 50px;
 }
-p{
-    text-align: justify;
+h2{
+    font-size: 35px;
 }
-#name-color{
+h3{
     color: orange;
 }
-section{
+p{
+    color: dimgray;
+}
+.name-color{
+    color: orange;
+}
+.flaxible-container{
     display: flex;
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .half-width{
 width: 50%;
-padding-left: 3%;
+padding-left: 7%;
 }
 .half-width img{
-    width: 70%;
+    width: 95%;
     }
 .hire-me-button{
     text-decoration: none;
@@ -48,4 +54,26 @@ padding-left: 3%;
     background-repeat: no-repeat;
     background-position: right;
     padding-right: 120px;
+}
+.experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 5%;
+    box-shadow: 10px 10px 40px gray;  
+    border-radius: 10px;
+}
+.Experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack-developer{
+    border-left: 7px solid orange;
+}
+#baby-web-developer{
+    border-left: 7px solid blue;
+}
+footer p{
+    text-align: center;
 }
